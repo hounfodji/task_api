@@ -4,3 +4,5 @@
     python3 manage.py createsuperuser 
 
 11 - Creating user app and profile model
+
+12 - Automating User Profile Creation
