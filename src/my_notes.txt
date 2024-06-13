@@ -6,3 +6,9 @@
 11 - Creating user app and profile model
 
 12 - Automating User Profile Creation
+
+13 - Creating User Model Serialiser
+     pip install djangorestframework
+     pip install markdown       # Markdown support for the browsable API.
+     pip install django-filter  # Filtering support
+
