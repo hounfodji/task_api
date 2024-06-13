@@ -106,6 +106,12 @@ REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES":[
          "rest_framework.permissions.IsAuthenticatedOrReadOnly",
     ],
+    
+    "DEFAULT_AUTHENTICATION_CLASSES":[
+        # Rest framework authetication classes
+        "rest_framework.authentication.BasicAuthentication",
+        "rest_framework.authentication.SessionAuthentication"
+    ],
 }
 
 
