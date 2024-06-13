@@ -19,3 +19,7 @@
 16 - Defining Router Urls
 
 17 - Setting Up User Registration
+
+18 - Automating Username Generation
+
+
