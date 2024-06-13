@@ -1,0 +1,6 @@
+9 - Understandng django ORM
+    python3 manage.py makemigrations
+    python3 manage.py migrate
+    python3 manage.py createsuperuser 
+
+11 - Creating user app and profile model
