@@ -25,3 +25,5 @@
 19 - Defining Global and Local permisions
 
 20 - Adding Browsable API Session Authentication
+
+21 - Adding token based authentication
