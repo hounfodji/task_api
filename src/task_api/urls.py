@@ -20,6 +20,8 @@ from django.urls import path, include
 
 from users import router as users_api_router
 
+
+
 auth_api_urls = [
     path(r'', include('rest_framework_social_oauth2.urls')),
 ]

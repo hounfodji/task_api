@@ -126,12 +126,14 @@ REST_FRAMEWORK = {
 }
 
 AUTHENTICATION_BACKENDS = (
-
-    # drf_social_oauth2
-    'rset_framework_social_oauth2.backends.DjangoOAuth2',
-
+    
     # Django
     'django.contrib.auth.backends.ModelBackend',
+
+    # drf_social_oauth2
+    'rest_framework_social_oauth2.backends.DjangoOAuth2',
+
+    
 )
 
 # Internationalization
