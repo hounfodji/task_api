@@ -38,3 +38,5 @@
 
 23 - Implementing password change functionality
 
+24 - User Serialiser Custom Validation
+
