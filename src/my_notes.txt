@@ -27,8 +27,14 @@
 20 - Adding Browsable API Session Authentication
 
 21 - Adding token based authentication ****
+     
 
 22 - Testing token based authentication ***
+     If you have NoReverseMatch error, add In settings.py add at the end:      
+
+     DRFSO2_URL_NAMESPACE = "drfso2" 
+
+     When you create the application in django oauth2 toolkit copy the client secret before save it.
 
 23 - Implementing password change functionality
 
